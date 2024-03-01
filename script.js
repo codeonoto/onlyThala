@@ -1,7 +1,7 @@
 // Utility function to check if a string is numeric
 function isNumeric(str) {
   return /^\d+$/.test(str);
-}
+} 
 
 // Function to handle both Thala and Gopi Bhau checking
 function checkEvents() {
