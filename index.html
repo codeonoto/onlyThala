@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thala For A Reason</title>
+    <!-- <link rel="stylesheet" href="tailwind.css"> -->
+    <link href="./output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.1/dist/sweetalert2.min.css" rel="stylesheet">
+
+</head>
+
+<body class="flex flex-col items-center justify-center h-screen w-screen bg-zinc-900">
+    <div
+        class="pl-8 pr-8 pt-6 pb-6 shadow-sm shadow-black gap-5 flex flex-col items-center justify-center rounded-3xl  border border-yellow-400 bg-white">
+        <h1 class="text-3xl font-semibold">Thala For A Reason !</h1>
+        <div class="gap-3 flex flex-row">
+            <input type="text" name="snippet" id="snippet" placeholder="CHECK THALA" autocomplete="off"
+                class="w-full outline-none p-3 pl-12 pr-12 border border-yellow-400 rounded-3xl">
+            <button onclick="checkThala()" type="submit"
+                class="p- w-full pl-12 pr-12 text-white bg-yellow-500 rounded-3xl shasow shadow-black">DRS ?</button>
+        </div>
+    </div>
+    <audio src="./assets/audio.mp3" preload="auto"></audio>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
