@@ -19,11 +19,13 @@
         <div class="gap-3 flex flex-row">
             <input type="text" name="snippet" id="snippet" placeholder="CHECK THALA" autocomplete="off"
                 class="w-full outline-none p-3 pl-12 pr-12 border border-yellow-400 rounded-3xl">
-            <button onclick="checkThala()" type="submit"
+            <button onclick="checkEvents()" type="submit"
                 class="p- w-full pl-12 pr-12 text-white bg-yellow-500 rounded-3xl shasow shadow-black">DRS ?</button>
         </div>
     </div>
-    <audio src="./assets/audio.mp3" preload="auto"></audio>
+    <audio id="thalaAudio" src="assets/audio.mp3" type="audio/mp3"></audio>
+    <audio id="gopiAudio" src="assets/lalala.mp3" type="audio/mp3"></audio>
+
     <script src="script.js"></script>
 
 </body>
