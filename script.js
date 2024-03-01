@@ -19,7 +19,7 @@ function checkThala() {
     sound.play();
     confettiAnimation();
     Swal.fire({
-      title: 'Good job!',
+      title: 'Thala For A Reason!',
       text: 'Thala For A Reason!',
       html: '<video autoplay muted loop class="text-center"><source src="./assets/correct.mp4" type="video/mp4"></video>',
       showCloseButton: true,
@@ -29,7 +29,7 @@ function checkThala() {
     });
   } else {
     Swal.fire({
-      title: 'Wrong!',
+      title: 'Not Thala For A Reason!',
       text: 'Not Thala For A Reason!',
       imageUrl: './assets/wrong.png',
       imageWidth: 400,
